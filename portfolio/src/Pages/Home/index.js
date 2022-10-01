@@ -8,7 +8,7 @@ function Home() {
 
   return (
     <>
-    <div className='home_root' style={{backgroundColor:'rgba(215, 50, 60,0.7)'}}>
+    <div className='home_root'>
       <div className='Home_card'>
         <div onClick={() => useclick(!click) } style={{marginTop:"5vh"}}>
             <img src={logo} className={`${click?'logo':'logo-spinning'}`} alt='logo' width='50%' />
