@@ -4,8 +4,8 @@ import Particles from "react-tsparticles";
 
 export default function Background() {
   return (
-    <>
-      <Particles 
+    <div className='back_background'>
+      {/*<Particles 
       options={{
         fullScreen: {
           enable: true,
@@ -123,7 +123,8 @@ export default function Background() {
         retina_detect: true,
         fps_limit: 800,
       }}
-    />
-    </>
+    />*/}
+    
+    </div>
   );
 }

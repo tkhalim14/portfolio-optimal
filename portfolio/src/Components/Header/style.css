@@ -1,15 +1,20 @@
-.header {
+.bar_root{
+  flex: 1,
+}
+.app_header {
     display: flex;
-    height:3%;
     transition : 0.5s;
     font-size: 1.5vw;
+    position: fixed;
 }
 .toolbar {
     display: flex;
     justify-Content: left;
-    background-color: crimson;
+    transition : 0.3s;
     padding-top: 1vh;
     padding-bottom: 0.7vh;
+    color:aqua;
+    font-size: 3.5vmin;
 }
 .logo {
        display: flex;
@@ -32,7 +37,6 @@
     margin-left: 20%;
     box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.3);
     transition: 0.3s;
-    color: rgb(0, 0, 0);
     justify-content: space-between;
     transition:0.5s;
   }
@@ -46,20 +50,17 @@
   .links:hover:after { 
     transform: scaleX(1); 
   }
-  a:link {
+a:link {
     color: rgba(0, 0, 0, 0.505);
-    background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
     color: rgba(0, 0, 0, 0.305);
-    background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: black;
-    background-color: transparent;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
