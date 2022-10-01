@@ -1,77 +1,16 @@
-.App {
+.Info_Card {
+    margin-top: 12vh;
   text-align: center;
   background-color:rgba(40, 40, 40, 0.5);
   border-radius:10px;
-  position: absolute !important;
+  position: relative !important;
     height: 100%;
     width: 100%;
+    margin-left: 9vw;
+    margin-right: auto;
+    padding-top: 0.01vh;
     transition: all 0.5s;
 }
-.App-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-	position: relative;
-  cursor: pointer;
-  transform: rotate(0deg);
-  transition : 0.5s;
-}
-.App-logo:hover{
-  transform: scale(1.06);
-  transition : 0.5s;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo-spinning {
-    transition : 0.5s;
-    animation: App-logo-spin 2s infinite linear;
-  }
-}
-
-.App-header {
-  background-color: #15171b;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-    transform-style: preserve-3d;
-  }
-  to {
-    transform: rotate(360deg);
-    transform-style: preserve-3d;
-  }
-}
-
-.lol { 
-  box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.1);
-  transition: 0.3s;
-  color: rgb(197, 13, 13);
-  display:absolute; 
-  margin:0;
-}
-.lol:after {
-  display:block;
-  content: '';
-  border-bottom: solid 3px blueviolet;  
-  transform: scaleX(0);  
-  transition: 250ms ease-in-out;
-}
-.lol:hover:after { 
-  transform: scaleX(1); 
-}
-
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic,300);
 
@@ -87,9 +26,9 @@
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    height: 200px;
+    height: 50%;
     margin: 20px auto;
-    width: 500px;
+    width: 90%;
     overflow: hidden;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -104,7 +43,7 @@
 .profile-card header {
     background: #ff7043;
     padding: 1px;
-    height: 8px;
+    height: 4%;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -136,9 +75,9 @@
 .profile-card header h2 {
     color: #ff7043;
     font-family: "Open Sans";
-    font-size: 16px;
+    font-size: 2vh;
     font-weight: 400;
-    letter-spacing: 4px;
+    letter-spacing: 0.2vw;
     margin: 0 0 5px;
     text-align: center;
     -webkit-transition: all 0.5s;
@@ -148,7 +87,7 @@
 }
 
 .profile-card .profile-bio {
-    padding: 20px;
+    padding: 2.5vh;
     position: relative;
     opacity: 0;
     -webkit-transition: all 0.3s 0.25s;
@@ -257,12 +196,13 @@
 }
 
 .Snkbar{
-  padding-top: 1vh;
-  padding-bottom: 1vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
   -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    margin: 20px auto;
+    margin: 2vw auto;
+    margin-bottom: 1vh;
     width: 10vw;
     overflow: hidden;
     background-color:#cc5734;

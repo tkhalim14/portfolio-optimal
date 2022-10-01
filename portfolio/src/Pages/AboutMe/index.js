@@ -5,11 +5,11 @@ import Instagram from './instagram.svg';
 import Gmail from './gmail.svg';
 import github from './github.svg';
 
-function AIPathFinder() {
+function Info() {
 
   return (
     <>
-    <div className="App" style={{height:"36vw" , width:"36vw"}}>
+    <div className="Info_Card" style={{height:"34vw" , width:"34vw",scale:"1.2"}}>
       <div className="Snkbar">
         Hover Me!
       </div>
@@ -61,4 +61,4 @@ Interested in Frontend, Backend, Competitive Programming, Application Developmen
   );
 }
 
-export default AIPathFinder;
+export default Info;
