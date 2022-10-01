@@ -177,6 +177,8 @@ function Calculator() {
                 <button onClick={() => dis('3.1415926')}>&pi;</button>
                 <button onClick={() => dis('(')}>(</button>
                 <button onClick={() => dis(')')}>)</button>
+                <button onClick={()=> dis('Math.abs(')}>|x|</button>
+                <button onClick={() => dis('2.71')}>e</button>
                 <button onClick={clr}>AC</button>
                 <button className="key--equal" id="enter" onClick={solve}>=</button>
               </div>

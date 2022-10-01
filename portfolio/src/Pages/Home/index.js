@@ -20,6 +20,7 @@ function Home() {
           Omeirawa Mou Shinderu
         </p>
     </div>
+    {/*https://codepen.io/aldrie/pen/PojGYLo*/}
     <div className='Home_card'>
         <div onClick={() => useclick(!click) } style={{marginTop:"5vh"}}>
             <img src={logo} className={`${click?'logo':'logo-spinning'}`} alt='logo' width='50%' />
