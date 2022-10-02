@@ -1,4 +1,5 @@
 import './style.css';
+import './glitch.css';
 import React from 'react';
 import ProfilePic from './Profile pic.jpeg';
 import Instagram from './instagram.svg';
@@ -18,10 +19,24 @@ function Info() {
   <a href="https://www.instagram.com/thesnagtalker007/">
     <img src={ProfilePic} alt="Tabish_profile_pic"/>
   </a>
-  <h1><b>TABISH KHALID HALIM</b></h1>
-  <h2>STUDENT<br/>
-  IIT Dharwad</h2>
 
+  <h1>
+  <div class="stack" style={{"--TABISH KHALID HALIM": 3}}>
+    <span style={{"--index": 0}}>TABISH KHALID HALIM<br/></span>
+    <span style={{"--index": 1}}>TABISH KHALID HALIM<br/></span>
+    <span style={{"--index": 2}}>TABISH KHALID HALIM<br/></span>
+  </div>
+  </h1>
+  <h2>
+  <div class="stack" style={{"--STUDENT<br/>IIT Dharwad": 3}}>
+    <span style={{"--index": 0}}>STUDENT<br/>
+  IIT Dharwad</span>
+    <span style={{"--index": 1}}>STUDENT<br/>
+  IIT Dharwad</span>
+    <span style={{"--index": 2}}>STUDENT<br/>
+  IIT Dharwad</span>
+  </div>
+  </h2>
 </header>
 
 <div class="profile-bio">
