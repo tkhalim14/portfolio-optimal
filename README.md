@@ -5,7 +5,11 @@
 </h2>
 
 <div align="center">
+<<<<<<< Updated upstream
   <img alt="Demo" src="portfolio/src/Components/Media/Sharingan1.png" />
+=======
+  <img alt="Demo" src="portfolio/src/Components/Media/Sharingan1.png" height='400' width='400'/>
+>>>>>>> Stashed changes
 </div>
 
 <br/>
