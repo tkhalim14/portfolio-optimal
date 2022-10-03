@@ -21,7 +21,7 @@ function App() {
       <Router>
       <Background/>
       <Header/>
-      <div style={{backgroundColor:'rgba(215, 50, 60,0.7)'}}>
+      <div>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='Calculator' element={<Calculator/>}/>
