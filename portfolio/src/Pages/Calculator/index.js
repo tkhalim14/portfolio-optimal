@@ -13,14 +13,14 @@ function Calculator() {
   //   return console.log('Unmounted.....');
   }, [ans]);
 
-  function dis(val) {
+  const dis = useCallback((val) => {
     // setResult(result+val);
-    if(val!=8 || val==='8')
+    if(val!==8 || val==='8')
       setResult(prevResult=>prevResult+val);
     else
       setResult(result?.slice(0, -1));
     // problems se bachne ke liye
-  }
+  }, [result]);
 
   function solve() {
     setans(eval(result));
@@ -129,8 +129,10 @@ function Calculator() {
       case 8: console.log("Backspace is pressed");
       dis(8);
       break;
+      default: console.log("Error");
+      break;
     }
-  }, []);
+  }, [dis]);
 
   useEffect(() => {
     document.addEventListener("keydown", escFunction);
@@ -142,9 +144,7 @@ function Calculator() {
   const [click,useclick]=useState(true);
   return (
     <>
-      <div className="App" style={{ height: "70%", width: "40%" , cursor: "pointer" }} onClick={() =>{
-        console.log("Hajimimashite");
-      }}>
+      <div className="App" style={{ height: "70%", width: "40%" , cursor: "pointer" }}>
         <div className={`${click?'flip-card-inner':'flip-card-inner rotate'}`}>
           <div className="calculator-normal">
             <div className="calculator">
@@ -177,6 +177,8 @@ function Calculator() {
                 <button onClick={() => dis('3.1415926')}>&pi;</button>
                 <button onClick={() => dis('(')}>(</button>
                 <button onClick={() => dis(')')}>)</button>
+                <button onClick={()=> dis('Math.abs(')}>|x|</button>
+                <button onClick={() => dis('2.71')}>e</button>
                 <button onClick={clr}>AC</button>
                 <button className="key--equal" id="enter" onClick={solve}>=</button>
               </div>
