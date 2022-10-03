@@ -7,7 +7,7 @@
   background-color:rgba(40, 40, 40, 0.5);
   border-radius:10px;
   position: relative !important;
-  height: 36vw;
+  height: 80vh;
   width: 36vw;
   margin-Top:10vh;
   transition: all 0.5s;
@@ -61,4 +61,94 @@
 }
 .lol:hover:after { 
   transform: scaleX(1); 
+}
+
+.vertical-timeline-element-content {
+  align-self: center;
+  text-align: center;
+  border-radius:1vw;
+  position: relative !important;
+  transition: all 0.5s;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  color: black;
+  padding: 2em 3em !important;
+}
+
+.date{
+  align-self: center;
+  text-align: center;
+  background-color:rgba(255, 165, 40, 0.5);
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+  0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  border-radius:10px;
+  height: auto;
+  width: 40vmin !important;
+  transition: all 0.5s;
+  color: white;
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+  transition: all 0.5s;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+    transition: all 0.5s ease;
+  }
+}
+.vertical-timeline::before,
+.vertical-timeline::after {
+  background-color: #7289da !important;
+}
+
+.timeline-head-style{
+  display: flex;
+  justify-content: center;
+  padding-right: 5vh;
+  padding-left: 5vh;
+  padding-top: 0.5vh;
+  padding-bottom: 1vh;
+  -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 2vw auto;
+    margin-bottom: 1vh;
+    width: 10vw;
+    overflow: hidden;
+    background-color:#ff764c;
+    border-radius:2vh;
+    position: relative;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }

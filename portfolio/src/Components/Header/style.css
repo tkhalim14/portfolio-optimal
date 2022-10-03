@@ -1,5 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Cherry+Swash);
+
 .bar_root{
   flex: 1,
+}
+.portfolio-title{
+  font-family: 'Cherry Swash';
+  -webkit-text-stroke: 0.5px black;
 }
 .app_header {
     display: flex;

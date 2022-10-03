@@ -1,8 +1,7 @@
 import './style.css';
 import React, { useCallback,useState,useEffect } from 'react';
-import SciCalculator from './scientificCalculator';
 
-function Calculator() {
+function SciCalculator() {
 
   const[counter,setcounter] = useState(-1);
   const[result, setResult] = useState('');
@@ -144,64 +143,43 @@ function Calculator() {
   }, [escFunction]);
   const [click,useclick]=useState(true);
   return (
-    <>
-      <div className='Calc-root'>
-      <div style={{display:'flex',justifyContent:'space-evenly'}}>
-        <div className="Calc-card">
-          <div className={`${click?'flip-card-inner':'flip-card-inner rotate'}`}>
-            <div className="calculator-normal">
-              <div className="calculator">
-                <p className="lol" onClick={() => useclick(!click) }>
-                  Calculator
-                </p>
-                <div style={{ marginTop: "1vh"}}>This calculator has done {counter} no. of calculations.</div>
-                <input disabled className="calculator__display" value={result}
-                  // onChange={(e) => setResult(result+e.target.value)}
-                />
-                <div className="calculator__keys">
-                  <button className="key--operator" onClick={() => dis('+')}>+</button>
-                  <button className="key--operator" onClick={() => dis('-')}>-</button>
-                  <button className="key--operator" onClick={() => dis('*')}>&times;</button>
-                  <button className="key--operator" onClick={() => dis('/')}>÷</button>
-                  <button onClick={() => dis('7')}>7</button>
-                  <button onClick={() => dis('8')}>8</button>
-                  <button onClick={() => dis('9')}>9</button>
-                  <button onClick={() => dis('4')}>4</button>
-                  <button onClick={() => dis('5')}>5</button>
-                  <button onClick={() => dis('6')}>6</button>
-                  <button onClick={() => dis('1')}>1</button>
-                  <button onClick={() => dis('2')}>2</button>
-                  <button onClick={() => dis('3')}>3</button>
-                  <button onClick={() => dis('0')}>0</button>
-                  <button onClick={() => dis('.')}>.</button>
-                  <button onClick={() => dis('**2')}>^2</button>
-                  <button onClick={() => dis('**')}>^x</button>
-                  <button onClick={() => dis('sin(')}>sin </button>
-                  <button onClick={() => dis('3.1415926')}>&pi;</button>
-                  <button onClick={() => dis('(')}>(</button>
-                  <button onClick={() => dis(')')}>)</button>
-                  <button onClick={()=> dis('Math.abs(')}>|x|</button>
-                  <button onClick={() => dis('2.71')}>e</button>
-                  <button onClick={clr}>AC</button>
-                  <button className="key--equal" id="enter" onClick={solve}>=</button>
-                </div>
+            <div className="calculator">
+              <p className="lol" style={{ height: "60%" }} onClick={() => useclick(!click) }>
+                Scientific Calculator
+              </p>
+              <div style={{ marginTop: "1vh"}}>This calculator has done {counter} no. of calculations.</div>
+              <input disabled className="calculator__display" value={result}
+                // onChange={(e) => setResult(result+e.target.value)}
+              />
+              <div className="calculator__keys">
+                <button className="key--operator" onClick={() => dis('+')}>+</button>
+                <button className="key--operator" onClick={() => dis('-')}>-</button>
+                <button className="key--operator" onClick={() => dis('*')}>&times;</button>
+                <button className="key--operator" onClick={() => dis('/')}>÷</button>
+                <button onClick={() => dis('7')}>7</button>
+                <button onClick={() => dis('8')}>8</button>
+                <button onClick={() => dis('9')}>9</button>
+                <button onClick={() => dis('4')}>4</button>
+                <button onClick={() => dis('5')}>5</button>
+                <button onClick={() => dis('6')}>6</button>
+                <button onClick={() => dis('1')}>1</button>
+                <button onClick={() => dis('2')}>2</button>
+                <button onClick={() => dis('3')}>3</button>
+                <button onClick={() => dis('0')}>0</button>
+                <button onClick={() => dis('.')}>.</button>
+                <button onClick={() => dis('**2')}>^2</button>
+                <button onClick={() => dis('**')}>^x</button>
+                <button onClick={() => dis('sin(')}>sin </button>
+                <button onClick={() => dis('3.1415926')}>&pi;</button>
+                <button onClick={() => dis('(')}>(</button>
+                <button onClick={() => dis(')')}>)</button>
+                <button onClick={()=> dis('Math.abs(')}>|x|</button>
+                <button onClick={() => dis('2.71')}>e</button>
+                <button onClick={clr}>AC</button>
+                <button className="key--equal" id="enter" onClick={solve}>=</button>
               </div>
             </div>
-            <div className="calculator-scientific">
-              <div className="calculator">
-                <p className="lol" style={{ height: "50%" , width: "100%" }} onClick={() => useclick(!click) }>
-                  If you're bored,<br/> then click here : 
-                </p>
-                <br/><a className="a" style={{ color: "white" }} href="https://www.instagram.com/thesnagtalker007/">Poems-Page</a>
-                <SciCalculator/>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-      </div>
-    </>
   );
 }
 
-export default Calculator;
+export default SciCalculator;
