@@ -34,7 +34,7 @@ function Home() {
           </p>
         </div>
       </div>
-    <div>
+    <div style={{position:'flex !important',padding:'1vh'}}>
       <App/>
     </div>
     </div>

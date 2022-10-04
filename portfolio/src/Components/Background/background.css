@@ -1,7 +1,7 @@
 .back_background{
     background-image:url("./Itachi.jpg");
     filter: grayscale(30%);
-    background-size:120%;
+    background-size:auto;
     position: absolute !important;
     height: 100%;
     width: 100%;

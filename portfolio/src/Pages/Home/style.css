@@ -7,7 +7,7 @@
   background-color:rgba(40, 40, 40, 0.5);
   border-radius:10px;
   position: relative !important;
-  height: 80vh;
+  height: auto;
   width: 36vw;
   margin-Top:10vh;
   transition: all 0.5s;
@@ -131,6 +131,9 @@
 }
 
 .timeline-head-style{
+  border-color: white;
+  border-style:double;
+  border-width: 0.7vh;
   display: flex;
   justify-content: center;
   padding-right: 5vh;
