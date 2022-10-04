@@ -19,7 +19,7 @@ function Info() {
   <a href="https://www.instagram.com/thesnagtalker007/">
     <img src={ProfilePic} alt="Tabish_profile_pic"/>
   </a>
-
+  <div style={{marginTop:'2vh'}}>
   <h1>
   <div class="stack" style={{"--TABISH KHALID HALIM": 3}}>
     <span style={{"--index": 0}}>TABISH KHALID HALIM<br/></span>
@@ -37,6 +37,8 @@ function Info() {
   IIT Dharwad</span>
   </div>
   </h2>
+  </div>
+  
 </header>
 
 <div class="profile-bio">
