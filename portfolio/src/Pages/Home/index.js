@@ -2,6 +2,7 @@ import logo from '../../Sharingan.png';
 import './style.css';
 import React,{useState} from 'react';
 import App from './timeline.js';
+import Fapp from './newtem';
 
 function Home() {
 
@@ -34,6 +35,7 @@ function Home() {
           </p>
         </div>
       </div>
+      <Fapp/>
     <div style={{position:'flex !important',padding:'1vh'}}>
       <App/>
     </div>

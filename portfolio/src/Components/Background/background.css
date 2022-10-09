@@ -3,7 +3,7 @@
     filter: grayscale(30%);
     background-size:130%;
     position: absolute !important;
-    height: 100.5vh;
+    height: 100vmin;
     width: 100%;
     animation: translate 20s ease infinite;
     transition: all 1s ease,
