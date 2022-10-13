@@ -1,7 +1,7 @@
 import './style.css';
 import './glitch.css';
 import React from 'react';
-import ProfilePic from '../../Components/Media/DP.jpeg';
+import ProfilePic from './Profile pic.jpeg';
 import Instagram from './instagram.svg';
 import Gmail from './gmail.svg';
 import github from './github.svg';
@@ -76,7 +76,7 @@ Interested in Frontend, Backend, Competitive Programming, Application Developmen
 
     <div className="Info_Card" style={{height:"34vw" , width:"34vw",scale:"1.2"}}>
       <div className="Snkbar">
-        My Badges!
+        Badges!
       </div>
       <div class="badges">
         <ul >

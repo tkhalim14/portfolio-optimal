@@ -1,7 +1,7 @@
 .Info_Card {
     margin-top: 12vh;
   text-align: center;
-  background-color:rgba(40, 40, 40, 0.7);
+  background-color:rgba(40, 40, 40, 0.5);
   border-radius:10px;
     height: 100%;
     width: 100%;
@@ -41,8 +41,8 @@
 
 .profile-card header {
     background: #ff7043;
-    padding: 0.1vmin;
-    height: 3%;
+    padding: 1px;
+    height: 4%;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -52,11 +52,9 @@
 .profile-card header img {
     border: 5px solid #fff;
     border-radius: 50%;
-    padding: 0.2vmax;
     display: block;
-    margin: 15px auto;
+    margin: 10px auto;
     width: 120px;
-    transform: scale(1.1);
 }
 
 .profile-card header h1 {

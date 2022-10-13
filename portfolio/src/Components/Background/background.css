@@ -1,5 +1,5 @@
 .back_background{
-    background-image:url("../Media/Itachi.jpg");
+    background-image:url("./Itachi.jpg");
     filter: grayscale(30%);
     background-size:130%;
     position: absolute !important;
