@@ -1,4 +1,4 @@
-import logo from '../../Sharingan.png';
+import logo from '../../Components/Media/Sharingan1.png';
 import './style.css';
 import React,{useState} from 'react';
 
