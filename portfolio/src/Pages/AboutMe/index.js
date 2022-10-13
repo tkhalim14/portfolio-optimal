@@ -9,7 +9,7 @@ import github from './github.svg';
 function Info() {
 
   return (
-    <>
+    <div style={{display:'flex',justifyContent:'space-evenly'}}>
     <div className="Info_Card" style={{height:"34vw" , width:"34vw",scale:"1.2"}}>
       <div className="Snkbar">
         Hover Me!
@@ -19,7 +19,7 @@ function Info() {
   <a href="https://www.instagram.com/thesnagtalker007/">
     <img src={ProfilePic} alt="Tabish_profile_pic"/>
   </a>
-
+  <div style={{marginTop:'2vh'}}>
   <h1>
   <div class="stack" style={{"--TABISH KHALID HALIM": 3}}>
     <span style={{"--index": 0}}>TABISH KHALID HALIM<br/></span>
@@ -37,6 +37,8 @@ function Info() {
   IIT Dharwad</span>
   </div>
   </h2>
+  </div>
+  
 </header>
 
 <div class="profile-bio">
@@ -70,9 +72,84 @@ Interested in Frontend, Backend, Competitive Programming, Application Developmen
 </ul>
 
 </aside>  
-  
     </div>
-    </>
+
+    <div className="Info_Card" style={{height:"34vw" , width:"34vw",scale:"1.2"}}>
+      <div className="Snkbar">
+        Badges!
+      </div>
+      <div class="badges">
+        <ul >
+          <li>
+            <a href="https://www.instagram.com/thesnagtalker007/">
+              <img src={Instagram}/>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:tkhalim14@gmail.com">
+              <img src={Gmail}/>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/tkhalim14">
+              <img src={github}/>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/tkhalim14">
+              <img src={github}/>
+            </a>
+          </li>
+        </ul>
+        
+        <ul >
+          <li>
+            <a href="https://www.instagram.com/thesnagtalker007/">
+              <img src={Instagram}/>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:tkhalim14@gmail.com">
+              <img src={Gmail}/>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/tkhalim14">
+              <img src={github}/>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/tkhalim14">
+              <img src={github}/>
+            </a>
+          </li>
+        </ul>
+
+        <ul >
+          <li>
+            <a href="https://www.instagram.com/thesnagtalker007/">
+              <img src={Instagram}/>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:tkhalim14@gmail.com">
+              <img src={Gmail}/>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/tkhalim14">
+              <img src={github}/>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/tkhalim14">
+              <img src={github}/>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
   );
 }
 

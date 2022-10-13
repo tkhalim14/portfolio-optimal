@@ -8,14 +8,14 @@ import './style.css';
 
 
 function Header() {
-	const [offset, setOffset] = useState(0.2);
+	const [offset, setOffset] = useState(0.5);
 	window.onscroll = function() {myFunction()};
 
 function myFunction() {
   if (document.documentElement.scrollTop > 50) {
     setOffset(1);
   } else {
-    setOffset(0.2);
+    setOffset(0.5);
   }
 }
 	return(

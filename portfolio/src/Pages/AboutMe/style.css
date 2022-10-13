@@ -3,7 +3,6 @@
   text-align: center;
   background-color:rgba(40, 40, 40, 0.5);
   border-radius:10px;
-  position: relative !important;
     height: 100%;
     width: 100%;
     margin-left: 9vw;
@@ -203,7 +202,8 @@
     border-radius: 3px;
     margin: 2vw auto;
     margin-bottom: 1vh;
-    width: 10vw;
+    padding: 1vmin;
+    width: fit-content;
     overflow: hidden;
     background-color:#cc5734;
     border-radius:10px;
@@ -212,4 +212,57 @@
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
+}
+
+.badges{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+    margin: 20px;
+}
+.badges ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 2vh;
+    width: auto;
+}
+.badges li {
+    display: flex;
+    justify-content: center;
+    -webkit-transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.25s;
+    -moz-transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.25s;
+    -ms-transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.25s;
+    transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.25s;
+}
+.badges li a {
+    background: rgba(220, 120, 120, 0.7);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    float: left;
+    height: 5vmax;
+    margin: 0 10px;
+    margin-block: 10px;
+    width: 5vmax;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.badges li a:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.badges li a img{
+    width: 2.7vmax;
+    padding-top: 0.5vmin;
 }

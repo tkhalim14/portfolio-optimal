@@ -1,7 +1,7 @@
 import './style.css';
 import React, { useCallback,useState,useEffect } from 'react';
 
-function SciCalculator() {
+function NormalCalculator() {
 
   const[counter,setcounter] = useState(-1);
   const[result, setResult] = useState('');
@@ -178,4 +178,4 @@ function SciCalculator() {
   );
 }
 
-export default SciCalculator;
+export default NormalCalculator;
