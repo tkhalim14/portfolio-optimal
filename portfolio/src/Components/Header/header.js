@@ -20,8 +20,8 @@ function myFunction() {
 }
 	return(
 		<React.Fragment>
-			<AppBar className='app_header' style={{backgroundColor: 'rgba(240, 20, 60,0)'}}>
-			<Toolbar className='toolbar' style={{backgroundColor: 'rgba(240, 20, 60,'+offset+')'}}>
+			<AppBar className='app_header' style={{backgroundColor: 'rgba(220, 20, 60,0)'}}>
+			<Toolbar className='toolbar' style={{backgroundColor: 'rgba(220, 20, 60,'+offset+')'}}>
 			<div className='portfolio-title'>My Portfolio</div>
 			<nav style={{justifyContent: 'space-between',display:'flex'}}>
 				<Link to="/" className="links">Home</Link>
@@ -29,7 +29,11 @@ function myFunction() {
 				<Link to="/AI" className="links">PathFinder</Link>
 				<Link to="/AboutMe" className="links">About</Link>
 			</nav>
-				<Typography variant="h6" component="div"/>
+				<Typography variant="h6" component="div">
+					
+				</Typography>
+				
+
 			</Toolbar>
 			</AppBar>
 			<Toolbar />
