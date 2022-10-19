@@ -22,7 +22,7 @@ function myFunction() {
 		<React.Fragment>
 			<AppBar className='app_header' style={{backgroundColor: 'rgba(240, 20, 60,0)'}}>
 			<Toolbar className='toolbar' style={{backgroundColor: 'rgba(240, 20, 60,'+offset+')'}}>
-			<div className='portfolio-title'>My Portfolio</div>
+			<div className='portfolio-title'><a href="/">My Portfolio</a></div>
 			<nav style={{justifyContent: 'space-between',display:'flex'}}>
 				<Link to="/" className="links">Home</Link>
 				<Link to="/Calculator" className="links">Calculator</Link>

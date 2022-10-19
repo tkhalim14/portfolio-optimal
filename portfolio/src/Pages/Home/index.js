@@ -27,7 +27,7 @@ function Home() {
           <div onClick={() => useclick(!click) } style={{marginTop:"5vh"}}>
               <img src={logo} className={`${click?'logo':'logo-spinning'}`} alt='logo' width='50%' />
               <h1>
-              {click?"Genjutsu":"Amaterasu"}
+                {click?"Genjutsu":"Amaterasu"}
               </h1>
           </div>
           <p className="lol">
@@ -35,8 +35,10 @@ function Home() {
           </p>
         </div>
       </div>
+    <div>
       <Fapp/>
-    <div style={{position:'flex !important',padding:'1vh'}}>
+    </div>
+    <div style={{position:'flex',padding:'1vh'}}>
       <App/>
     </div>
     </div>

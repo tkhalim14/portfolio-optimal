@@ -5,7 +5,25 @@
 }
 .portfolio-title{
   font-family: 'Cherry Swash';
-  -webkit-text-stroke: 0.5px black;
+  -webkit-text-stroke: 0.5px white;
+  transition: all 0.3s ease;
+}
+.portfolio-title a:link {
+  color: aqua;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.portfolio-title a:visited {
+  color: aqua;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.portfolio-title a:hover {
+  color: blanchedalmond;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 .app_header {
     display: flex;
@@ -24,13 +42,13 @@
 }
 .logo {
        display: flex;
-	   position: relative;
+	     position: relative;
        font-Family: Work Sans, sans-serif;
        font-weight: 600;
-	   font-size: 30;
+	     font-size: 30;
        color: #FFFEFE;
        text-Align: left;
-	   margin-Left: 1%;
+	     margin-Left: 1%;
        cursor: pointer;
        transition : 0.5s;
 }
@@ -56,17 +74,19 @@
   .links:hover:after { 
     transform: scaleX(1); 
   }
-a:link {
-    color: rgba(0, 0, 0, 0.505);
+
+nav a:link {
+  font-weight: 400;
+    color: blanchedalmond;
     text-decoration: none;
 }
 
-a:visited {
-    color: rgba(0, 0, 0, 0.305);
+nav a:visited {
+    color: blanchedalmond;
     text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }

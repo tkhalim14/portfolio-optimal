@@ -155,3 +155,26 @@
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
+
+/* This is for newterm.js*/
+.name {
+  background: -webkit-linear-gradient(135deg, #f26e3f, #e43351);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.designation {
+  color:#f3bc3c;
+}
+.Pic img{
+  border: 10px coral;
+  border-radius: 50%;
+  display: block;
+  margin: 5vh auto;
+  transform: scale(1);
+  padding: 8px;
+  width: 25%;
+  box-shadow: 0px 0px 8px 4px white;
+}
+.Pic img:hover{
+  transform: scale(1.3);
+}

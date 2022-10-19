@@ -1,10 +1,12 @@
+.home_root{
+    align-items: center;
+  }
 .Info_Card {
-    margin-top: 12vh;
-  text-align: center;
-  background-color:rgba(40, 40, 40, 0.7);
-  border-radius:10px;
-    height: 100%;
-    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    border-radius:10px;
     margin-left: 9vw;
     margin-right: auto;
     padding-top: 0.01vh;
@@ -25,9 +27,9 @@
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    height: 50%;
+    height: 45%;
     margin: 20px auto;
-    width: 90%;
+    width: 100%;
     overflow: hidden;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -41,8 +43,8 @@
 
 .profile-card header {
     background: #ff7043;
-    padding: 0.1vmin;
-    height: 3%;
+    padding: 0.2vmin;
+    height: 2%;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -52,11 +54,11 @@
 .profile-card header img {
     border: 5px solid #fff;
     border-radius: 50%;
-    padding: 0.2vmax;
+    padding: 0.3vmax;
     display: block;
     margin: 15px auto;
-    width: 120px;
-    transform: scale(1.1);
+    width: 25%;
+    transform: scale(1.15);
 }
 
 .profile-card header h1 {
@@ -98,7 +100,7 @@
 }
 
 .profile-card .profile-bio p {
-    color: #999;
+    color: rgb(193, 193, 193);
     font-size: 14px;
     font-style: italic;
     text-align: center;
@@ -173,7 +175,7 @@
 /*  CHANGES  ON HOVER  */
 
 .profile-card:hover {
-    height: 420px;
+    height: 80%;
 }
 .profile-card:hover header {
     height: 200px;
@@ -197,19 +199,15 @@
 }
 
 .Snkbar{
-  padding-top: 0.5vh;
-  padding-bottom: 0.5vh;
   -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
     margin: 2vw auto;
-    margin-bottom: 1vh;
-    padding: 1vmin;
-    width: fit-content;
+    margin-bottom: 0.1vh;
+    padding: 0.7vmin;
     overflow: hidden;
-    background-color:#cc5734;
+    background-color:#ff6e41;
     border-radius:10px;
-    position: relative;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
