@@ -1,14 +1,15 @@
 import React,{useRef} from 'react';
 import { Grid, Typography } from '@mui/material';
 import './style.css';
+import './newtem.css';
 import Fade from 'react-reveal/Fade';
 import Typewriter from "typewriter-effect";
 import lottie from 'lottie-web';
 import TextLoop from "react-text-loop";
 import Zoom from 'react-reveal/Zoom';
-import Reveal from 'react-reveal/Reveal';
 import ProfilePic from '../../Components/Media/DP.jpeg';
 import LazyLoad from 'react-lazy-load';
+import bg1 from '../../Components/Media/bg-home5.png';
 
 const HomeSVG = () => {
     const container = useRef(null);
@@ -32,7 +33,7 @@ const HomeSVG = () => {
   )
 }
 
-const Hello = ['Hey There !','Konnichiwa !','Hola !','ٱلسَّلَامُ عَلَيْكُمْ','Bonjour !'];
+const Hello = ['Hey There !','नमस्ते !','こんにちは !','Hola !','ٱلسَّلَامُ عَلَيْكُمْ','Bonjour !'];
 const Greetings = () => {
     return (
             <Fade>
@@ -60,16 +61,16 @@ const Designation = () => {
 
 function Fapp() {
     return (
-        <div style={{backgroundColor:'#6495ED',marginTop:'20vh'}}>
-            <hr />
+        <div className="secondpageBG">
+            <hr style={{height:'10vh',borderStyle:'hidden'}}/>
             <br/>
             <br/>
             <div>
-            <Grid container sx={{ diplay:'flex',flexDirection: { xs: 'column-reverse', md: 'row' } }}>
+            <Grid container sx={{ diplay:'flex',flexDirection: { xs: 'column-reverse', md: 'row' }}}>
       <Grid item md={6} xs={12}>
         <span style={{display:'flex',flexDirection:'column',justifyContent:'center'}}>
-            <Typography variant="h3">
-                <span style={{color:'#BF40BF',fontWeight:800,textShadow:'2px 4px orange'}}><Greetings/></span>
+            <Typography style={{fontSize:'3vmax'}}>
+                <span style={{color:'orange',fontWeight:'900',wordSpacing:'5px'}}><Greetings/></span>
             </Typography>
             <div className='Pic'>
                 <LazyLoad>
@@ -78,15 +79,15 @@ function Fapp() {
                     </Zoom>
                 </LazyLoad>
             </div>
-            <Typography variant="h4" style={{textShadow:'1px 1px black'}}>
+            <Typography style={{fontSize:'2.5vmax',textShadow:'1px 1px black'}}>
                 I am<br/>
             </Typography>
-            <Typography variant="h2" sx={{ fontWeight: 500 }}>
+            <Typography style={{fontSize:'3.5vmax',fontWeight: 600}}>
             <span className="name">Tabish Khalid Halim</span>
             </Typography>
             <br/>
             <br/>
-            <Typography variant="h4">
+            <Typography style={{fontSize:'2vmax'}}>
             I live in a world of &nbsp;
                 <span className="designation" style={{fontWeight: 800}}>
                     <Designation />
@@ -96,7 +97,7 @@ function Fapp() {
         
       </Grid>
       <Grid item md={6} xs={12}>
-        <LazyLoad>
+        <LazyLoad >
             <Fade up duration={500}>
                 <HomeSVG/>
             </Fade>
@@ -107,7 +108,7 @@ function Fapp() {
             <br/>
             <br/>
             <br/>
-            <hr/>
+            <hr style={{height:'3vh',backgroundColor:'purple',border:'transparent'}}/>
         </div>
     );
   }

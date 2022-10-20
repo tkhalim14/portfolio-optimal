@@ -1,7 +1,7 @@
 let timelineElements = [
   {
     id: 1,
-    title: "Frontend Developer",
+    title: "Coding Nights 2.0",
     location: "Dragontail, Ascana",
     description:
       "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
@@ -11,8 +11,8 @@ let timelineElements = [
   },
   {
     id: 2,
-    title: "Backend Developer",
-    location: "Skystead, Craonia",
+    title: "Code Wars",
+    location: "Indian Institute of Technology, Dharwad",
     description:
       "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
     buttonText: "View Backend Projects",
@@ -21,8 +21,8 @@ let timelineElements = [
   },
   {
     id: 3,
-    title: "Quality Assurance Engineer",
-    location: "South Warren, Geshington",
+    title: "Code-Topia",
+    location: "Indian Institute of Technology, Dharwad",
     description:
       "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
     buttonText: "Company Website",
@@ -31,18 +31,18 @@ let timelineElements = [
   },
   {
     id: 4,
-    title: "Oak Ridge College",
-    location: "South Warren, Geshington",
+    title: "Junior Technical Secretary",
+    location: "Indian Institute of Technology, Dharwad",
     description:
       "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
     buttonText: "Course Certificate",
-    date: "September 2011",
+    date: "Feb 2021 - May 2022 ",
     icon: "school"
   },
   {
     id: 5,
-    title: "Hawking College",
-    location: "Skystead, Craonia",
+    title: "Indian Institute of Technology, Dharwad",
+    location: "Dharwad, Karnataka",
     description:
       "College - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
     buttonText: "College Projects",
@@ -51,11 +51,11 @@ let timelineElements = [
   },
   {
     id: 6,
-    title: "Marble Hills Grammar School",
-    location: "Dragontail, Ascana",
+    title: "St. Karen's Secondary School",
+    location: "Patna, Bihar",
     description:
-      "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-    date: "2003 - 2007",
+      "Highschool - St. Karen’s instilled in me a strong sense of self-belief and confidence and empower them to positively contribute to society and become active. In my years of high school, I've excelled at academics and have even picked up various soft skills.",
+    date: "2017 - 2020",
     icon: "school"
   }
 ];
