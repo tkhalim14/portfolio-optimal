@@ -9,7 +9,6 @@ import TextLoop from "react-text-loop";
 import Zoom from 'react-reveal/Zoom';
 import ProfilePic from '../../Components/Media/DP.jpeg';
 import LazyLoad from 'react-lazy-load';
-import bg1 from '../../Components/Media/bg-home5.png';
 
 const HomeSVG = () => {
     const container = useRef(null);

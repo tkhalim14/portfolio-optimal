@@ -27,7 +27,7 @@ function myFunction() {
 				<Link to="/" className="links">Home</Link>
 				<Link to="/Calculator" className="links">Calculator</Link>
 				<Link to="/AI" className="links">PathFinder</Link>
-				<Link to="/AboutMe" className="links">About</Link>
+				<Link to="/AboutMe" className="links">About&nbsp;Me</Link>
 			</nav>
 				<Typography variant="h6" component="div"/>
 			</Toolbar>

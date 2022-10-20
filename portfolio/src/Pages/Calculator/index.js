@@ -1,5 +1,5 @@
 import './style.css';
-import React, { useCallback,useState,useEffect } from 'react';
+import React, {useState} from 'react';
 import SciCalculator from './scientificCalculator';
 import NormalCalculator from './NormalCalculator';
 

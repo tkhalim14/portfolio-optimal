@@ -1,9 +1,10 @@
 .home_root{
     align-items: center;
+
   }
 .Info_Card {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
     text-align: center;
     border-radius:10px;
@@ -178,7 +179,7 @@
     height: 80%;
 }
 .profile-card:hover header {
-    height: 200px;
+    height: 44%;
 }
 
 .profile-card:hover header h1,
@@ -241,8 +242,9 @@
     transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.25s;
 }
 .badges li a {
-    background: rgba(220, 120, 120, 0.7);
+    background: rgb(244, 244, 244);
     border-radius: 50%;
+    border: 7px red solid;
     display: flex;
     justify-content: center;
     float: left;

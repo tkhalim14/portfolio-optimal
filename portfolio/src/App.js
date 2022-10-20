@@ -5,6 +5,7 @@ import Home from './Pages/Home/index.js';
 import Calculator from './Pages/Calculator/index.js';
 import AIPathFinder from './Pages/AI path finder/index.js';
 import AboutMe from './Pages/AboutMe/index.js';
+import { BallTriangle } from 'react-loader-spinner';
 import './App.css';
 import {
 	BrowserRouter as Router,

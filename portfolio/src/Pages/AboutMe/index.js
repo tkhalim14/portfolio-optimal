@@ -5,6 +5,15 @@ import ProfilePic from '../../Components/Media/DP.jpeg';
 import Instagram from './instagram.svg';
 import Gmail from './gmail.svg';
 import github from './github.svg';
+import java from './java-icon.svg';
+import javascript from './javascript-icon.svg';
+import python from './python-icon.svg';
+import c1 from './c++.svg';
+import c2 from './c.svg';
+import django from './django.svg';
+import react from './react.svg';
+import nextjs from './next-js.svg';
+import flutter from './flutterio-icon.svg';
 import Zoom from 'react-reveal/Zoom';
 import HeadShake from 'react-reveal/HeadShake';
 
@@ -14,7 +23,7 @@ function Info() {
 
   return (
     <div className='home_root'>
-    <div style={{display:'flex',justifyContent:'space-evenly',marginTop:'4%'}}>
+    <div style={{display:'flex',justifyContent:'space-evenly',marginTop:'4vh'}}>
     <div className="Info_Card" style={{height:"74vh" , width:"34vw",scale:"1.17"}}>
       <div className="Snkbar" style={{height: offset}}>
         {offset==="auto"?"Hover Me!":"__________"}
@@ -83,60 +92,59 @@ Interested in Frontend, Backend, Competitive Programming, Application Developmen
 
     <div className="Info_Card" style={{height:"70vh" , width:"34vw",scale:"1.17"}}>
       <div className="Snkbar">
-        My Badges!
+        My Badges !
       </div>
       <HeadShake>
         <div class="badges">
           <ul >
             <li>
-              <a href="https://www.instagram.com/thesnagtalker007/">
-                <img src={Instagram} alt="Instagram"/>
+              <a>
+                <img src={java} alt="java"/>
               </a>
             </li>
             <li>
-              <a href="mailto:tkhalim14@gmail.com">
-                <img src={Gmail} alt="Gmail"/>
+              <a>
+                <img src={javascript} alt="javascript"/>
               </a>
             </li>
-            <li>
-              <a href="https://github.com/tkhalim14">
-                <img src={github} alt="Github"/>
-              </a>
+            <li><a>
+                <img src={c1} alt="c++" style={{width:'85%',transform:'scale(0.7)'}}/>
+                </a>
             </li>
             <li>
-              <a href="https://github.com/tkhalim14">
-                <img src={github} alt="Github"/>
+              <a>
+                <img src={python} alt="python"/>
               </a>
             </li>
           </ul>
           
           <ul >
             <li>
-              <a href="https://www.instagram.com/thesnagtalker007/">
-                <img src={Instagram} alt="Instagram"/>
+              <a>
+                <img src={c2} alt="c"/>
               </a>
             </li>
             <li>
-              <a href="mailto:tkhalim14@gmail.com">
-                <img src={Gmail} alt="Gmail"/>
+              <a>
+                <img src={django} alt="django" style={{width:'85%',transform:'scale(0.7)'}}/>
               </a>
             </li>
             <li>
-              <a href="https://github.com/tkhalim14">
-                <img src={github} alt="Github"/>
+              <a>
+                <img src={react} alt="react" style={{width:'85%',transform:'scale(0.7)'}}/>
               </a>
             </li>
             <li>
-              <a href="https://github.com/tkhalim14">
-                <img src={github} alt="Github"/>
+              <a>
+                <img src={nextjs} alt="nextjs"/>
               </a>
             </li>
           </ul>
 
           <ul >
             <li>
-              <a href="https://www.instagram.com/thesnagtalker007/">
-                <img src={Instagram} alt="Instagram"/>
+              <a>
+                <img src={flutter} alt="flutter" style={{width:'95%',transform:'scale(0.6)'}}/>
               </a>
             </li>
             <li>
