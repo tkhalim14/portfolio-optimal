@@ -14,6 +14,9 @@ import django from './django.svg';
 import react from './react.svg';
 import nextjs from './next-js.svg';
 import flutter from './flutterio-icon.svg';
+import mysql from './mysql.svg';
+import php from './php.svg';
+import mongodb from './mongodb.svg';
 import Zoom from 'react-reveal/Zoom';
 import HeadShake from 'react-reveal/HeadShake';
 
@@ -37,7 +40,7 @@ function Info() {
   </Zoom>
   <div style={{marginTop:'2vh'}}>
   <h1>
-  <div class="stack" style={{"--TABISH KHALID HALIM": 3}}>
+  <div className="stack" style={{"--TABISH KHALID HALIM": 3}}>
     <span style={{"--index": 0}}>TABISH KHALID HALIM<br/></span>
     <span style={{"--index": 1}}>TABISH KHALID HALIM<br/></span>
     <span style={{"--index": 2}}>TABISH KHALID HALIM<br/></span>
@@ -148,18 +151,18 @@ Interested in Frontend, Backend, Competitive Programming, Application Developmen
               </a>
             </li>
             <li>
-              <a href="mailto:tkhalim14@gmail.com">
-                <img src={Gmail} alt="Gmail"/>
+              <a>
+                <img src={mysql} alt="mysql"/>
               </a>
             </li>
             <li>
-              <a href="https://github.com/tkhalim14">
-                <img src={github} alt="Github"/>
+              <a>
+                <img src={php} alt="php"/>
               </a>
             </li>
             <li>
-              <a href="https://github.com/tkhalim14">
-                <img src={github} alt="Github"/>
+              <a>
+                <img src={mongodb} alt="mongodb"/>
               </a>
             </li>
           </ul>

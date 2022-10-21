@@ -8,20 +8,20 @@ import './style.css';
 
 
 function Header() {
-	const [offset, setOffset] = useState(0.5);
+	const [offset, setOffset] = useState(0);
 	window.onscroll = function() {myFunction()};
 
 function myFunction() {
-  if (document.documentElement.scrollTop > 50) {
+  if (document.documentElement.scrollTop > 500) {
     setOffset(1);
   } else {
-    setOffset(0.5);
+    setOffset(0);
   }
 }
 	return(
 		<React.Fragment>
-			<AppBar className='app_header' style={{backgroundColor: 'rgba(240, 20, 60,0)'}}>
-			<Toolbar className='toolbar' style={{backgroundColor: 'rgba(240, 20, 60,'+offset+')'}}>
+			<AppBar className='app_header' style={{backgroundColor: '#8BBCCC'}}>
+			<Toolbar className={`${offset?'toolbar offset':'toolbar'}`}>
 			<div className='portfolio-title'><a href="/">My Portfolio</a></div>
 			<nav style={{justifyContent: 'space-between',display:'flex'}}>
 				<Link to="/" className="links">Home</Link>

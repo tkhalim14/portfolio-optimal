@@ -26,6 +26,7 @@
   transition: all 0.3s ease;
 }
 .app_header {
+    background-color: rgba(121, 120, 255,0.6);
     display: flex;
     transition : 0.5s;
     font-size: 1.5vw;
@@ -40,21 +41,8 @@
     color:aqua;
     font-size: 3.5vmin;
 }
-.logo {
-       display: flex;
-	     position: relative;
-       font-Family: Work Sans, sans-serif;
-       font-weight: 600;
-	     font-size: 30;
-       color: #FFFEFE;
-       text-Align: left;
-	     margin-Left: 1%;
-       cursor: pointer;
-       transition : 0.5s;
-}
-.logo:hover{
-    transform: scale(1.4);
-    transition : 0.5s;
+.offset{
+  background-color: rgba(121, 120, 255,1);
 }
 .links { 
     display: inline-block;

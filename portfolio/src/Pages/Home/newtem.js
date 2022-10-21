@@ -32,7 +32,7 @@ const HomeSVG = () => {
   )
 }
 
-const Hello = ['Hey There !','नमस्ते !','こんにちは !','Hola !','ٱلسَّلَامُ عَلَيْكُمْ','Bonjour !'];
+const Hello = ['Hey There !','नमस्ते !','こんにちは !','Hola !','Merhaban !','Bonjour !'];
 const Greetings = () => {
     return (
             <Fade>
@@ -49,7 +49,7 @@ const Greetings = () => {
     )
 }
 
-const phrases = ['Artificial Intelligence', 'Application Development', 'Competitive Programming', 'Graphic Designing', 'Open Source Work'];
+const phrases = ['Artificial Intelligence', 'Application Development', 'Competitive Programming', 'UI/UX Design', 'Open Source Work'];
 
 const Designation = () => {
     return (
@@ -61,53 +61,52 @@ const Designation = () => {
 function Fapp() {
     return (
         <div className="secondpageBG">
-            <hr style={{height:'10vh',borderStyle:'hidden'}}/>
-            <br/>
-            <br/>
+            <hr style={{height:'5vh',backgroundColor:'#6A5ACD',border:'transparent'}}/>
+            <hr style={{height:'4vh',borderStyle:'hidden'}}/>
             <div>
             <Grid container sx={{ diplay:'flex',flexDirection: { xs: 'column-reverse', md: 'row' }}}>
-      <Grid item md={6} xs={12}>
-        <span style={{display:'flex',flexDirection:'column',justifyContent:'center'}}>
-            <Typography style={{fontSize:'3vmax'}}>
-                <span style={{color:'orange',fontWeight:'900',wordSpacing:'5px'}}><Greetings/></span>
-            </Typography>
-            <div className='Pic'>
-                <LazyLoad>
-                    <Zoom>
-                        <img src={ProfilePic} alt="Tabish_profile_pic"/>
-                    </Zoom>
-                </LazyLoad>
+                <Grid item md={6} xs={12}>
+                    <span style={{display:'flex',flexDirection:'column',justifyContent:'center'}}>
+                        <Typography style={{fontSize:'3vmax'}}>
+                            <span style={{color:'orange',fontWeight:'900',wordSpacing:'5px'}}><Greetings/></span>
+                        </Typography>
+                        <div className='Pic'>
+                            <LazyLoad>
+                                <Zoom>
+                                    <div className='hover14'>
+                                        <img src={ProfilePic} alt="Tabish_profile_pic"/>
+                                    </div>
+                                </Zoom>
+                            </LazyLoad>
+                        </div>
+                        <Typography style={{fontSize:'2.5vmax',textShadow:'1px 1px black'}}>
+                            I am<br/>
+                        </Typography>
+                        <Typography style={{fontSize:'3.5vmax',fontWeight: 600}}>
+                        <span className="name">Tabish Khalid Halim</span>
+                        </Typography>
+                        <br/>
+                        <br/>
+                        <Typography style={{fontSize:'2vmax'}}>
+                        I live in a world of &nbsp;
+                            <span className="designation" style={{fontWeight: 800}}>
+                                <Designation />
+                            </span>
+                        </Typography>
+                    </span>
+                    
+                </Grid>
+                <Grid item md={6} xs={12}>
+                    <LazyLoad >
+                        <Fade up duration={500}>
+                            <HomeSVG/>
+                        </Fade>
+                    </LazyLoad>
+                </Grid>
+            </Grid>
             </div>
-            <Typography style={{fontSize:'2.5vmax',textShadow:'1px 1px black'}}>
-                I am<br/>
-            </Typography>
-            <Typography style={{fontSize:'3.5vmax',fontWeight: 600}}>
-            <span className="name">Tabish Khalid Halim</span>
-            </Typography>
-            <br/>
-            <br/>
-            <Typography style={{fontSize:'2vmax'}}>
-            I live in a world of &nbsp;
-                <span className="designation" style={{fontWeight: 800}}>
-                    <Designation />
-                </span>
-            </Typography>
-        </span>
-        
-      </Grid>
-      <Grid item md={6} xs={12}>
-        <LazyLoad >
-            <Fade up duration={500}>
-                <HomeSVG/>
-            </Fade>
-        </LazyLoad>
-      </Grid>
-    </Grid>
-            </div>
-            <br/>
-            <br/>
-            <br/>
-            <hr style={{height:'3vh',backgroundColor:'purple',border:'transparent'}}/>
+            <hr style={{height:'14vh',borderStyle:'hidden'}}/>
+            <hr style={{height:'4vh',backgroundColor:'#6A5ACD',border:'transparent'}}/>
         </div>
     );
   }

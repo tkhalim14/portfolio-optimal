@@ -11,8 +11,8 @@ function Home() {
   return (
     <>
     <div className='home_root'>
-      <div style={{display:'flex',justifyContent:'space-evenly'}}>
-        <div className='Home_card'>
+      <div style={{display:'flex',justifyContent:'space-evenly',height:'80vh'}}>
+        {/* <div className='Home_card'>
           <div onClick={() => useclick(!click) } style={{marginTop:"5vh"}}>
               <img src={logo} className={`${click?'logo':'logo-spinning'}`} alt='logo' width='50%' />
               <h1>
@@ -33,7 +33,8 @@ function Home() {
           <p className="lol">
             Omeirawa Mou Shinderu
           </p>
-        </div>
+        </div> 
+        */}
       </div>
     <div>
       <Fapp/>

@@ -60,8 +60,8 @@ let timelineElements = [
   },
   {
     id: 7,
-    title: "Coding Nights 2.0",
-    location: "Indian Institute of Technology, Dharwad",
+    title: "YearBook Website",
+    location: "Open Source Society - IIT Dharwad",
     description:
       "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
     buttonText: "View Frontend Projects",

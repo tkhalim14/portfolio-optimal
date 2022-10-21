@@ -62,10 +62,11 @@
 .lol:hover:after { 
   transform: scaleX(1); 
 }
-
+/* This is for Timeline*/
 .vertical-timeline-element-content {
   align-self: center;
   text-align: center;
+  background-image: url('../../Components/Media/Tech_wallpaper.png');
   border-radius:1vw;
   position: relative !important;
   transition: all 0.5s;
@@ -85,9 +86,7 @@
   height: auto;
   width: 40vmin !important;
   transition: all 0.5s;
-  color: white;
 }
-
 #description {
   margin: 1.5em 0 2em 0;
 }
@@ -174,9 +173,11 @@
   padding: 8px;
   width: 25%;
   box-shadow: 0px 0px 8px 4px white;
+  transition: 0.5s all ease;
 }
 .Pic img:hover{
   transform: scale(1.3);
+  transition: 0.5s all ease;
 }
 
 /*Second Page starting border*/

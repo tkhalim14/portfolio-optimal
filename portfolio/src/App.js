@@ -5,7 +5,6 @@ import Home from './Pages/Home/index.js';
 import Calculator from './Pages/Calculator/index.js';
 import AIPathFinder from './Pages/AI path finder/index.js';
 import AboutMe from './Pages/AboutMe/index.js';
-import { BallTriangle } from 'react-loader-spinner';
 import './App.css';
 import {
 	BrowserRouter as Router,
@@ -22,7 +21,7 @@ function App() {
       <Router>
       <Background/>
       <Header/>
-      <div style={{backgroundColor: 'rgba(220, 20, 60,1)'}}>
+      <div>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='Calculator' element={<Calculator/>}/>
