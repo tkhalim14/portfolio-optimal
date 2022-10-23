@@ -7,12 +7,11 @@ a {
 
 
 .grid {
-	position: relative;
 	clear: both;
 	list-style: none;
 	text-align: center;
-	height: 100vh;
-	width:100vw;
+	height: 90vh;
+	width:90vw;
 }
 
 /* Individual effects */
@@ -29,10 +28,11 @@ a {
 	width:50%;
 }
 .effect-background{
-	background: #303fa9;
-	height: 100vh;
-	width: 100vw;
-	background-image: url('./17.jpg');
+	display: flex;
+	justify-content: center;
+	background: rgba(0, 0, 0, 0);
+	height: 90vh;
+	width: 90vw;
 	background-size: cover;
 }
 
