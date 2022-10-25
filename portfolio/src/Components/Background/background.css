@@ -1,21 +1,25 @@
 .back_background{
-    background-image:url("../Media/Itachi.jpg");
-    filter: grayscale(30%);
-    background-size:130%;
+    background-image:url("../Media/bg-1.png");
+    filter: grayscale(20%);
+    background-size:100% 100%;
     position: absolute !important;
-    height: 100vmin;
+
+    height: 100%;
     width: 100%;
-    animation: translate 20s ease infinite;
+    /*animation: translate 20s ease infinite;*/
     transition: all 1s ease,
 }
 @keyframes translate {
     0%{
         background-position: 40% 40%;
+        background-size:100%;
     }
     50%{
-        background-position:80% 30%;
+        background-position:90% 30%;
+        background-size:120%;
     }
     100%{
         background-position:40% 40%;
+        background-size:100%;
     }
 }

@@ -7,44 +7,12 @@
   background-color:rgba(40, 40, 40, 0.5);
   border-radius:10px;
   position: relative !important;
-  height: auto;
+  height: 100%;
   width: 36vw;
-  margin-Top:10vh;
+  margin-top: 12vh;
   transition: all 0.5s;
-  padding-top: 3vh;
+  overflow: hidden;
 }
-.logo {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-	position: relative;
-  cursor: pointer;
-  transform: rotate(0deg);
-  transition : 0.5s;
-}
-.logo:hover{
-  transform: scale(1.06);
-  transition : 0.5s;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .logo-spinning {
-    transition : 0.5s;
-    animation: App-logo-spin 2s infinite linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-    transform-style: preserve-3d;
-  }
-  to {
-    transform: rotate(360deg);
-    transform-style: preserve-3d;
-  }
-}
-
 .lol { 
   box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.1);
   transition: 0.3s;
@@ -62,10 +30,11 @@
 .lol:hover:after { 
   transform: scaleX(1); 
 }
-
+/* This is for Timeline*/
 .vertical-timeline-element-content {
   align-self: center;
   text-align: center;
+  background-image: url('../../Components/Media/Tech_wallpaper.png');
   border-radius:1vw;
   position: relative !important;
   transition: all 0.5s;
@@ -85,9 +54,7 @@
   height: auto;
   width: 40vmin !important;
   transition: all 0.5s;
-  color: white;
 }
-
 #description {
   margin: 1.5em 0 2em 0;
 }
@@ -155,3 +122,30 @@
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
+
+/* This is for newterm.js*/
+.name {
+  background: -webkit-linear-gradient(135deg, #f26e3f, #e43351);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.designation {
+  color:#f3bc3c;
+}
+.Pic img{
+  border: 10px coral;
+  border-radius: 50%;
+  display: block;
+  margin: 5vh auto;
+  transform: scale(1);
+  padding: 8px;
+  width: 25%;
+  box-shadow: 0px 0px 8px 4px white;
+  transition: 0.5s all ease;
+}
+.Pic img:hover{
+  transform: scale(1.3);
+  transition: 0.5s all ease;
+}
+
+/*Second Page starting border*/

@@ -1,0 +1,150 @@
+/* *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; } // required */
+@import 'http://fonts.googleapis.com/css?family=Raleway:400,800,500,600';
+
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+.grid {
+	clear: both;
+	list-style: none;
+	text-align: center;
+	height: 80vh;
+	width:90vw;
+}
+.effect-background{
+	display: flex;
+	justify-content: center;
+	background: rgba(0, 0, 0, 0);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+/* Individual effects */
+
+.effect-hera {
+	position: flex;
+	top: 25%;
+	left: 25%;
+	height:50%;
+	width:50%;
+}
+
+.effect-hera span{
+	font-weight: 800;
+}
+.effect-hera h2{
+	margin: 0;
+	font-size: 6vh;
+	color:#67bedb;
+	font-weight: 600;
+}
+
+.effect-hera h2,
+.effect-hera p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	-webkit-transform-origin: 50%;
+	transform-origin: 50%;
+}
+
+
+/*The brackets part*/
+.effect-hera figcaption::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 30vh;
+	height: 30vh;
+	border: 3px solid #8BBCCC;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
+	transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
+	-webkit-transform-origin: 50%;
+	transform-origin: 50%;
+}
+
+.effect-hera p {
+	/*width: 100px;*/
+	text-transform: none;
+	font-size: 121%;
+	line-height: 2;
+}
+
+.effect-hera p a {
+	color: #8BBCCC;
+	font-size: 7vh;
+}
+
+.effect-hera p a:hover,
+.effect-hera p a:focus {
+	opacity: 0.6;
+}
+
+.effect-hera p a i {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+.effect-hera p a:first-child i {
+	-webkit-transform: translate3d(-60px,-60px,0);
+	transform: translate3d(-60px,-60px,0);
+}
+
+.effect-hera p a:nth-child(2) i {
+	-webkit-transform: translate3d(60px,-60px,0);
+	transform: translate3d(60px,-60px,0);
+}
+
+.effect-hera p a:nth-child(3) i {
+	-webkit-transform: translate3d(-60px,60px,0);
+	transform: translate3d(-60px,60px,0);
+}
+
+.effect-hera p a:nth-child(4) i {
+	-webkit-transform: translate3d(60px,60px,0);
+	transform: translate3d(60px,60px,0);
+}
+
+.effect-hera:hover figcaption::before {
+	opacity: 1;
+	-webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(1,1,1);
+	transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(1,1,1);
+}
+
+.effect-hera:hover h2 {
+	opacity: 0;
+	-webkit-transform: translate3d(-50%,-50%,0) scale3d(0.8,0.8,1);
+	transform: translate3d(-50%,-50%,0) scale3d(0.8,0.8,1);
+}
+
+.effect-hera:hover p i:empty {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0); /* just because it's stronger than nth-child */
+	opacity: 1;
+}
+.effect-hera .reveal {
+	margin: 0;
+	font-size: 0.7em;
+    color:rgba(255, 255, 255, 0);
+    transition: 0.2s all ease;
+}
+.effect-hera:hover .reveal {
+    color:#8BBCCC;
+	font-size: 3vh;
+}
+.effect-hera:hover .reveal a{
+    color:#8BBCCC;
+	font-size: 9vh;
+}

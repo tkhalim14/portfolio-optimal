@@ -15,22 +15,22 @@
   overflow: hidden !important;
 }
 
-.lol { 
+.card-title { 
   font-size: 3vw;
   box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.1);
   transition: 0.3s;
-  color: rgb(197, 13, 13);
+  color: cyan;
   display:inline-block; 
   margin:0;
 }
-.lol:after {
+.card-title:after {
   display:block;
   content: '';
   border-bottom: solid 3px blueviolet;  
   transform: scaleX(0);  
   transition: 250ms ease-in-out;
 }
-.lol:hover:after { 
+.card-title:hover:after { 
   transform: scaleX(1); 
 }
 .calculator {
