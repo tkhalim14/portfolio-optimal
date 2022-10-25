@@ -2,6 +2,30 @@
   text-align: center;
   font-size: 1.5vw;
   color: white;
-  background-color: rgb(196, 122, 255);
+  background-color: rgb(165, 60, 252);
 }
 
+body::-webkit-scrollbar-track
+{
+  box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+	background-color: rgb(184, 255, 255);
+}
+
+body::-webkit-scrollbar
+{
+	width: 12px;
+  background-color: black;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: rgb(168, 0, 224);	
+	background-image: -webkit-linear-gradient(45deg,
+	                                          rgba(255, 255, 255, .1) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, .1) 50%,
+											  rgba(255, 255, 255, .1) 75%,
+											  transparent 75%,
+											  transparent)
+}

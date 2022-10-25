@@ -3,7 +3,6 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import "./style.min.css";
 import {GoBriefcase } from 'react-icons/go';
 import {MdWorkOutline} from 'react-icons/md';
-import LazyLoad from "react-lazy-load";
 
 function App() {
     let workIconStyles = { background: "#06D6A0" };
@@ -14,7 +13,6 @@ function App() {
             <div>
                 <h1 className="timeline-head-style">Timeline</h1>
             </div>
-            <LazyLoad>
             <div>
                 <VerticalTimeline style={{backgroundColor:"orange"}}>
                 {
@@ -54,7 +52,6 @@ function App() {
                 }
                 </VerticalTimeline>
             </div>
-            </LazyLoad>
             
         </div>
     );

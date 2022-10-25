@@ -1,39 +1,45 @@
 /* *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; } // required */
+@import 'http://fonts.googleapis.com/css?family=Raleway:400,800,500,600';
 
 a {
 	outline: none;
 	text-decoration: none;
 }
 
-
 .grid {
 	clear: both;
 	list-style: none;
 	text-align: center;
-	height: 90vh;
+	height: 80vh;
 	width:90vw;
-}
-
-/* Individual effects */
-
-/*-----------------*/
-/***** Hera *****/
-/*-----------------*/
-
-.effect-hera {
-	position: absolute;
-	top: 25%;
-	left: 25%;
-	height:50%;
-	width:50%;
 }
 .effect-background{
 	display: flex;
 	justify-content: center;
 	background: rgba(0, 0, 0, 0);
-	height: 90vh;
-	width: 90vw;
+	height: 100%;
+	width: 100%;
 	background-size: cover;
+}
+
+/* Individual effects */
+
+.effect-hera {
+	position: flex;
+	top: 25%;
+	left: 25%;
+	height:50%;
+	width:50%;
+}
+
+.effect-hera span{
+	font-weight: 800;
+}
+.effect-hera h2{
+	margin: 0;
+	font-size: 6vh;
+	color:#67bedb;
+	font-weight: 600;
 }
 
 .effect-hera h2,
@@ -57,7 +63,7 @@ a {
 	left: 50%;
 	width: 30vh;
 	height: 30vh;
-	border: 2px solid #fff;
+	border: 3px solid #8BBCCC;
 	content: '';
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -76,7 +82,8 @@ a {
 }
 
 .effect-hera p a {
-	color: #fff;
+	color: #8BBCCC;
+	font-size: 7vh;
 }
 
 .effect-hera p a:hover,
@@ -128,10 +135,16 @@ a {
 	opacity: 1;
 }
 .effect-hera .reveal {
+	margin: 0;
 	font-size: 0.7em;
     color:rgba(255, 255, 255, 0);
     transition: 0.2s all ease;
 }
 .effect-hera:hover .reveal {
-    color:white;
+    color:#8BBCCC;
+	font-size: 3vh;
+}
+.effect-hera:hover .reveal a{
+    color:#8BBCCC;
+	font-size: 9vh;
 }

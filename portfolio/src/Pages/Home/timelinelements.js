@@ -50,16 +50,6 @@ let timelineElements = [
   },
   {
     id: 6,
-    title: "Coding Nights 2.0",
-    location: "Indian Institute of Technology, Dharwad",
-    description:
-      "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
-    buttonText: "View Frontend Projects",
-    date: "August 2016 - present",
-    icon: "work"
-  },
-  {
-    id: 7,
     title: "YearBook Website",
     location: "Open Source Society - IIT Dharwad",
     description:
@@ -69,7 +59,7 @@ let timelineElements = [
     icon: "work"
   },
   {
-    id: 8,
+    id: 7,
     title: "Website Team",
     location: "Student Mentorship Program - IIT Dharwad",
     description:
@@ -79,7 +69,7 @@ let timelineElements = [
     icon: "work"
   },
   {
-    id: 9,
+    id: 8,
     title: "Student Mentor",
     location: "Student Mentorship Program - IIT Dharwad",
     description:
@@ -89,9 +79,19 @@ let timelineElements = [
     icon: "work"
   },
   {
-    id: 10,
+    id: 9,
     title: "Jr. Overall Coordinator",
     location: "PARSEC - Annual TechFest, IIT Dharwad",
+    description:
+      "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
+    buttonText: "View Frontend Projects",
+    date: "August 2016 - present",
+    icon: "work"
+  },
+  {
+    id: 10,
+    title: "Inter-IIT Digital Alpha Team",
+    location: "Indian Institute of Technology, Dharwad",
     description:
       "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
     buttonText: "View Frontend Projects",
@@ -109,7 +109,7 @@ let timelineElements = [
     icon: "work"
   },
   {
-    id: 10,
+    id: 12,
     title: "Overall Coordinator",
     location: "PARSEC - Annual TechFest, IIT Dharwad",
     description:
