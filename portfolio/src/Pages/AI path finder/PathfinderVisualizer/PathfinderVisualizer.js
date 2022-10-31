@@ -416,7 +416,7 @@ export default class PathfinderVisualizer extends Component {
               </ul>
             </label>
 
-            <li> <a href="#openModal-about">App Info</a> </li>  
+          
 
           </ul>
       }</ul> <br/> 
