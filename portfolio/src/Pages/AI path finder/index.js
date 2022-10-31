@@ -1,14 +1,13 @@
-import logo from '../../Components/Media/Sharingan1.png';
 import './style.css';
-import React,{useState} from 'react';
+import React from 'react';
+import PathfinderVisualizer from './PathfinderVisualizer/PathfinderVisualizer.js';
 
 function AIPathFinder() {
 
-  const [click,useclick]=useState(true);
-
   return (
     <>
-    <div className="App" style={{height:"36vw" , width:"36vw"}}>
+    <div className="PathFinderRoot">
+      <PathfinderVisualizer/>
     </div>
     </>
   );
