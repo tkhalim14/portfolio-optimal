@@ -41,12 +41,7 @@
     color:aqua;
     font-size: 3.5vmin;
 }
-.offset{
-  background-color: rgba(121, 120, 255,1);
-}
-.offset1{
-  background-color: rgb(217, 0, 255);
-}
+
 .links { 
     display: inline-block;
     margin-left: 20%;
