@@ -7,29 +7,30 @@ a {
 }
 
 .grid {
+	display: flex;
+	justify-content: center;
 	clear: both;
 	list-style: none;
 	text-align: center;
-	height: 80vh;
-	width:90vw;
+	height: 100vh;
+	width:auto;
 }
 .effect-background{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	background: rgba(0, 0, 0, 0);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
+	height: 70%;
+	width: 70%;
 }
 
 /* Individual effects */
 
 .effect-hera {
-	position: flex;
-	top: 25%;
-	left: 25%;
-	height:50%;
-	width:50%;
+	display: relative;
+	justify-content: center;
+	height:100%;
+	width:100%;
 }
 
 .effect-hera span{

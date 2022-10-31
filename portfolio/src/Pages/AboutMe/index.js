@@ -27,7 +27,7 @@ function Info() {
   return (
     <div className='home_root'>
     <div style={{display:'flex',justifyContent:'space-evenly',marginTop:'4vh'}}>
-    <div className="Info_Card" style={{height:"74vh" , width:"34vw",scale:"1.17"}}>
+    <div className="Info_Card" style={{height:"74vh" , width:"34vw",scale:"1.15"}}>
       <div className="Snkbar" style={{height: offset}}>
         {offset==="auto"?"Hover Me!":"__________"}
       </div>

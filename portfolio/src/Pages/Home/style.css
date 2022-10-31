@@ -108,19 +108,19 @@
   padding-top: 0.5vh;
   padding-bottom: 1vh;
   -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    margin: 2vw auto;
-    margin-bottom: 1vh;
-    width: 10vw;
-    overflow: hidden;
-    background-color:#ff764c;
-    border-radius:2vh;
-    position: relative;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin: 2vw auto;
+  margin-bottom: 1vh;
+  width: 10vw;
+  overflow: hidden;
+  background-color:#ff764c;
+  border-radius:2vh;
+  position: relative;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 /* This is for newterm.js*/
