@@ -5,7 +5,7 @@
 </h2>
 
 <div align="center">
-  <img alt="Demo" src="portfolio/src/Components/Media/Sharingan1.png"/>
+  <img alt="Demo" src="portfolio/src/Components/Media/Sharingan1.png" height='400' width='400'/>
 </div>
 
 <br/>
@@ -16,6 +16,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
+<img alt="Demo" src="portfolio/src/Components/Media/built-different.svg"/> 
 </center>
 
 <h3 align="center">
