@@ -1,9 +1,8 @@
 /*$midnight: #2c3e50;
 $clouds: #ecf0f1;*/
 
-.grid {
-  
-    height: 100vh;
+.gridi {
+    height: 80vh;
     min-width: auto;
     padding: 35px 20px 20px 0;
     background-color: #fdfdfd;
@@ -25,7 +24,7 @@ $clouds: #ecf0f1;*/
 .logo{
   cursor: pointer;
   display: flex;
-  padding: 10px;
+  padding: 1vh;
   align-items: center;
   text-align: left;
   text-transform: capitalize;
@@ -36,20 +35,20 @@ $clouds: #ecf0f1;*/
 .logo::after {
   content: "";
   display: block;
-  height: 3px;
+  height: 0.5vh;
   width: 0%;
   background-color: #61DAFB;
   position: absolute;
   transition: all ease-in-out 250ms;
-  margin-top: 25px;
-  width: 70px;
+  margin-top: 8vh;
+  width: 6vw;
 }
 
 /*Styling Links*/
 .nav-links{
     display: flex;
     list-style: none; 
-    width: 88vw;
+    width: 80vw;
     padding: 0;
     justify-content: space-evenly;
     align-items: center;
