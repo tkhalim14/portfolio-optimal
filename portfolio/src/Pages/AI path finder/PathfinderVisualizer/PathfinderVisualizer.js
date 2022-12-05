@@ -424,7 +424,7 @@ export default class PathfinderVisualizer extends Component {
       </nav>     
 
         {/* Render the 2D grid layout */}
-        <div className="grid align-middle">
+        <div className="gridi align-middle">
           {grid.map((row, rowIdx) => {
             return (
               <div key={rowIdx}>

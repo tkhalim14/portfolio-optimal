@@ -35,7 +35,7 @@ This project was built using these technologies.
 - React.js
 - CSS
 - VsCode
-- Heroku
+- Netlify
 
 ## Features
 
